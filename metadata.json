@@ -1,0 +1,6 @@
+{
+  "name": "Rajat Mishra Portfolio",
+  "description": "An accessible, modern minimal portfolio for Rajat Mishra, Computer Science student at VIT Chennai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #09090b;
+  --color-card-dark: #141417;
+  --color-electric-purple: #a855f7;
+  --color-electric-purple-hover: #9333ea;
+  --color-focus-sky: #38bdf8;
+  
+  --font-sans: "Inter", ui-sans-serif, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  /* Strict WCAG Focus Outline overrides for keyboard navigation transparency */
+  *:focus-visible {
+    outline: 2px solid var(--color-focus-sky) !important;
+    outline-offset: 4px !important;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2) !important;
+  }
+}
+
+/* Beautiful micro-animations and accessibility accommodations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

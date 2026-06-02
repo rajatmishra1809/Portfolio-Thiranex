@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO & Accessibility Meta Tags -->
+    <title>Academic Projects Lab | Rajat Mishra Portfolio</title>
+    <meta name="title" content="Academic Projects Lab | Rajat Mishra CSE Portfolio" />
+    <meta name="description" content="Explore software projects, system tools, and accessibility applications developed by Rajat Mishra at VIT Chennai, featuring complete semantic HTML and keyboard optimization." />
+    
+    <!-- Typography & CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-[#09090b] text-[#fafafa] antialiased min-h-screen flex flex-col font-sans">
+
+    <!-- Keyboard Skip Link -->
+    <a href="#main-content" class="absolute left-4 top-4 z-50 -translate-y-20 bg-[#a855f7] text-white px-5 py-2.5 rounded-lg border border-purple-400 font-medium font-display transition-transform focus:translate-y-0 focus:outline-none focus:ring-2 focus:ring-[#38bdf8]" aria-label="Skip to main content">
+      Skip Navigation
+    </a>
+
+    <!-- 🧭 Global Header -->
+    <header class="sticky top-0 z-40 bg-[#141417]/80 backdrop-blur-md border-b border-zinc-800" aria-label="Global Portfolio Header">
+      <div class="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 h-20">
+        <div class="flex items-center gap-3">
+          <div class="w-2.5 h-2.5 bg-[#a855f7] rounded-full" aria-hidden="true"></div>
+          <a href="index.html" class="text-xl font-bold tracking-tight text-white hover:text-[#a855f7] transition-colors focus:outline-none focus:ring-2 focus:ring-[#38bdf8] rounded" aria-label="Rajat Mishra Home Title">
+            Rajat Mishra <span class="text-[#a855f7] font-mono text-xs ml-1">CSE @ VIT</span>
+          </a>
+        </div>
+
+        <nav aria-label="Primary site navigation sections">
+          <ul class="flex gap-6 md:gap-8 list-none m-0 p-0">
+            <li><a href="index.html" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#38bdf8] rounded" aria-label="Navigate to Index section">Index</a></li>
+            <li><a href="about.html" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#38bdf8] rounded" aria-label="Navigate to About section">About</a></li>
+            <li><a href="projects.html" class="text-sm font-semibold text-[#a855f7] border-b-2 border-[#a855f7] pb-1" aria-current="page" aria-label="Current page: Projects">Projects</a></li>
+            <li><a href="contact.html" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[#38bdf8] rounded" aria-label="Navigate to Contact section">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="about.html#academics" class="hidden sm:inline-block px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-xs font-semibold hover:border-zinc-700 tracking-wide text-zinc-300 transition-all focus:outline-none focus:ring-2 focus:ring-[#38bdf8]" aria-label="Navigate directly to educational credentials">
+          Credentials
+        </a>
+      </div>
+    </header>
+
+    <!-- 🛠️ Main Content Segment -->
+    <main id="main-content" class="flex-grow max-w-6xl w-full mx-auto px-6 md:px-8 py-12 md:py-16 focus:outline-none space-y-12" tabindex="-1">
+      
+      <!-- Top Introduction area -->
+      <section class="border-b border-zinc-900 pb-10" aria-labelledby="projects-intro-title">
+        <h1 id="projects-intro-title" class="text-3xl md:text-5xl font-extrabold tracking-tight font-display text-white">
+          Application Laboratory
+        </h1>
+        <p class="text-zinc-400 text-base max-w-3xl leading-relaxed mt-3">
+          A showcase of active research topics, web systems optimization, and tactile academic utilities built during my semesters under the CSE syllabus at Vellore Institute of Technology (VIT) Chennai.
+        </p>
+      </section>
+
+      <!-- Projects Grid Layout -->
+      <section class="grid md:grid-cols-2 gap-8" aria-label="Portfolio academic projects list">
+        
+        <!-- Project Card 1: Aegis Gate -->
+        <article class="p-6 rounded-2xl bg-[#141417] border border-zinc-800 flex flex-col justify-between hover:border-[#a855f7]/40 hover:bg-zinc-900/10 transition-all group focus-within:ring-2 focus-within:ring-[#38bdf8]">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-mono tracking-widest text-[#a855f7] uppercase font-semibold">WEB SEC LABS &mdash; 4 WEEKS</span>
+              <span class="inline-block px-2.5 py-0.5 rounded-full bg-emerald-950/40 border border-emerald-500/20 text-emerald-400 text-[10px] font-semibold uppercase">Real-Time Data Feed</span>
+            </div>
+            
+            <div class="space-y-2">
+              <h2 id="proj-title-1" class="text-xl font-bold font-display text-white group-hover:text-[#a855f7] transition-colors">
+                Aegis Gate &mdash; Network Traffic Monitor
+              </h2>
+              <p class="text-xs text-zinc-400 italic">Academic Lab focus: Web Technology Project</p>
+              <p class="text-zinc-300 text-sm leading-relaxed">
+                A centralized dashboard monitoring cloud gateway traffic. Built with complete screen-reader integration, implementing custom ARIA announcements (`aria-live="polite"`) to stream active alerts securely to visual-assistive terminal readers.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6 mt-6 border-t border-zinc-800/80">
+            <div class="flex flex-wrap gap-1.5" aria-label="Technologies used in Aegis Gate">
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">React.js</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Tailwind</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">ARIA Live</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">SSE Streams</span>
+            </div>
+            
+            <div class="flex items-center justify-between gap-4 text-xs pt-1">
+              <span class="text-zinc-500 font-mono">Role: Lead Interface Architect</span>
+              <div class="flex gap-4">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="View source code for Aegis Gate on GitHub">GitHub</a>
+                <a href="#demo" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="Open sandbox deployment for Aegis Gate">Simulation</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2: SynthLex -->
+        <article class="p-6 rounded-2xl bg-[#141417] border border-zinc-800 flex flex-col justify-between hover:border-[#a855f7]/40 hover:bg-zinc-900/10 transition-all group focus-within:ring-2 focus-within:ring-[#38bdf8]">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-mono tracking-widest text-[#a855f7] uppercase font-semibold">STUDENT TOOL &mdash; 2 MONTHS</span>
+              <span class="inline-block px-2.5 py-0.5 rounded-full bg-purple-950/40 border border-purple-500/20 text-[#a855f7] text-[10px] font-semibold uppercase">WCAG 100/100 Core</span>
+            </div>
+            
+            <div class="space-y-2">
+              <h2 id="proj-title-2" class="text-xl font-bold font-display text-white group-hover:text-[#a855f7] transition-colors">
+                SynthLex &mdash; Semantic Finder & Document Index
+              </h2>
+              <p class="text-xs text-zinc-400 italic">Academic Lab focus: CSE Innovation Initiative</p>
+              <p class="text-zinc-300 text-sm leading-relaxed">
+                An educational material retrieval system crafted specifically for students with cognitive challenges. Presents textbook indexes with screen magnifier-friendly outlines, high contrast palette matching, and keyboard commands list.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6 mt-6 border-t border-zinc-800/80">
+            <div class="flex flex-wrap gap-1.5" aria-label="Technologies used in SynthLex">
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">TypeScript</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Indexing Engine</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">CSS Variables</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Aria Trees</span>
+            </div>
+            
+            <div class="flex items-center justify-between gap-4 text-xs pt-1">
+              <span class="text-zinc-500 font-mono">Role: Core Developer</span>
+              <div class="flex gap-4">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="View source repository for SynthLex on GitHub">Repository</a>
+                <a href="#audit" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="Read structural Lighthouse reports for SynthLex">Lighthouse Report</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 3: VIT-Scheduler -->
+        <article class="p-6 rounded-2xl bg-[#141417] border border-zinc-800 flex flex-col justify-between hover:border-[#a855f7]/40 hover:bg-zinc-900/10 transition-all group focus-within:ring-2 focus-within:ring-[#38bdf8]">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-mono tracking-widest text-[#a855f7] uppercase font-semibold">UTILITY &mdash; 3 WEEKS</span>
+              <span class="inline-block px-2.5 py-0.5 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400 text-[10px] font-semibold uppercase">Offline Cache Enabled</span>
+            </div>
+            
+            <div class="space-y-2">
+              <h2 id="proj-title-3" class="text-xl font-bold font-display text-white group-hover:text-[#a855f7] transition-colors">
+                VIT-Schedule Core Conflict Solver
+              </h2>
+              <p class="text-xs text-zinc-400 italic">Academic Lab focus: Practical Slot Solver</p>
+              <p class="text-zinc-300 text-sm leading-relaxed">
+                An offline-first browser app helping students solve academic class registration conflicts. Consolidates interval math formulas into a highly clean, keyboard-tabbable slot matrix designed for complete screen accessibility.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6 mt-6 border-t border-zinc-800/80">
+            <div class="flex flex-wrap gap-1.5" aria-label="Technologies used in VIT-Scheduler">
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Vite vanilla</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Interval-Math</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">LocalStorage</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Tabular ARIA</span>
+            </div>
+            
+            <div class="flex items-center justify-between gap-4 text-xs pt-1">
+              <span class="text-zinc-500 font-mono">Role: Sole Creator</span>
+              <div class="flex gap-4">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="Open original scheduler GitHub files">Source</a>
+                <a href="#preview" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="Launch Schedule conflict solver layout">Launch Tool</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 4: VerbaSense -->
+        <article class="p-6 rounded-2xl bg-[#141417] border border-zinc-800 flex flex-col justify-between hover:border-[#a855f7]/40 hover:bg-zinc-900/10 transition-all group focus-within:ring-2 focus-within:ring-[#38bdf8]">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-mono tracking-widest text-[#a855f7] uppercase font-semibold">MATH RESEARCH &mdash; 1 MONTH</span>
+              <span class="inline-block px-2.5 py-0.5 rounded-full bg-indigo-950/40 border border-indigo-500/20 text-[#38bdf8] text-[10px] font-semibold uppercase">HTML5 Audio Engine</span>
+            </div>
+            
+            <div class="space-y-2">
+              <h2 id="proj-title-4" class="text-xl font-bold font-display text-white group-hover:text-[#a855f7] transition-colors">
+                VerbaSense &mdash; Auditory Traversal Synthesizer
+              </h2>
+              <p class="text-xs text-zinc-400 italic">Academic Lab focus: Advanced Data Structures</p>
+              <p class="text-zinc-300 text-sm leading-relaxed">
+                An algorithm classroom synthesizer that translates Binary Tree traversals (preorder, inorder, etc) into distinct frequency audio nodes. Provides secondary sensory paths for students with low visibility.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6 mt-6 border-t border-zinc-800/80">
+            <div class="flex flex-wrap gap-1.5" aria-label="Technologies used in VerbaSense">
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Web Audio API</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">D3 Graph SVGs</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Aria Roles</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-950 border border-zinc-800 text-zinc-400 uppercase">Oscillators</span>
+            </div>
+            
+            <div class="flex items-center justify-between gap-4 text-xs pt-1">
+              <span class="text-zinc-500 font-mono">Role: Solo Researcher</span>
+              <div class="flex gap-4">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="View VerbaSense codebase on GitHub">Repository</a>
+                <a href="#play" class="text-purple-400 hover:underline focus:outline-none focus:ring-1 focus:ring-[#38bdf8] rounded font-medium" aria-label="Try auditory node synthesizer demonstration">Live Prototype</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+    </main>
+
+    <!-- 🟢 Footer navigation -->
+    <footer class="py-8 border-t border-zinc-800 px-6 md:px-8 bg-[#09090b]" aria-label="Portfolio Footer navigation">
+      <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-4 justify-between items-center text-zinc-500">
+        <p class="text-xs tracking-wide uppercase font-semibold text-zinc-400">
+          &copy; 2026 Rajat Mishra &mdash; VIT Chennai CSE Academic Lab
+        </p>
+        <div class="flex gap-6">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-xs font-mono uppercase tracking-widest hover:text-[#a855f7] focus:text-[#38bdf8] focus:underline outline-none" aria-label="LinkedIn profile external linkage">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-xs font-mono uppercase tracking-widest hover:text-[#a855f7] focus:text-[#38bdf8] focus:underline outline-none" aria-label="GitHub portfolio code repository external linkage">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
